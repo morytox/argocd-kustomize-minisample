@@ -3,7 +3,7 @@ kind: DeploymentConfig
 metadata:
   name: print-headers
 spec:
-  replicas: 3
+  replicas: 5
   revisionHistoryLimit: 10
   selector:
     app: print-headers
